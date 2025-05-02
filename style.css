@@ -1,0 +1,141 @@
+body{
+    font-family: fantasy;
+    text-align: center;
+    background-color: #fff7f7;
+    margin: 80px;
+    color: #000000;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    background-image: url(https://img.freepik.com/premium-vector/seamless-fabric-textile-pattern-background-baby-doodle-fabric-swatch-print_292734-3379.jpg?uid=R130957023&ga=GA1.1.830783437.1745933291&semt=ais_hybrid&w=740);
+   
+}
+
+
+.dialogue-box{
+    border: 2px solid #000000;
+    border: 2px solid #000000;
+    background-color:#B9D9EB;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: 0.85;
+}
+
+.dialogue-box h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    font-style: italic;
+ }
+
+.dialogue-box fieldset {
+    border: none;
+    margin-bottom: 15px;
+}
+
+.dialogue-box label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.dialogue-box input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid ;
+    border-radius: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.dialogue-box button {
+    background-color: #ffffff;
+    color: #030303;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    width: 45%;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dialogue-box button:hover {
+    background-color:#0071c5 ;
+}
+ 
+.game-container{
+    margin: 80px auto;
+    border: 2px solid #000000;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #E9967A;
+    opacity: 0.85;
+    width:350px;
+
+}
+
+.game-container h1{
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    justify-content: center;
+    gap: 5px;
+
+}
+.cell{
+  background-color: white;
+  border: 2px solid #000000;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+  border-radius: 15px;
+}
+.cell:hover {
+    background-color: #6699CC;
+  }
+  
+.cell.x {
+    color: #ff5252;
+}
+  
+.cell.o {
+    color: #2196f3;
+}
+
+.game-container button{
+    background-color: #ffffff;
+    color: #030303;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    width: 40%;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 20px auto;
+}
+.game-container button:hover{
+    background-color:#0071c5  ;
+}
